@@ -184,7 +184,7 @@ header>.link>li>a {
 }
 
 header>.link>li>a i {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   display: inline-block;
   transform: translateY(2px);
 }
@@ -498,6 +498,32 @@ footer .sns>li>a {
 footer .sns>li>a:hover {
   color: #FF8D29;
   background: rgba(255, 255, 255, 0.8);
+}
+
+footer .resume{
+  margin-bottom:5rem;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  display:inline-block;
+}
+
+footer .resume>a{
+  display:block;
+  padding:1rem 5rem;
+  font-size:1.8rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  transition: all 0.2s ease-in-out;
+}
+
+footer .resume>a:hover{
+  color: #FF8D29;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+footer .resume>a i{
+	display:inline-block;
+	margin-right: 0.2rem;
 }
 
 footer .copyright {
